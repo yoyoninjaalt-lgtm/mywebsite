@@ -13,13 +13,14 @@ body {
 .feedback {
   display: block;
   margin: 20px auto 40px auto;
-  padding: 20px;
-  width: 70%;          /* wider feedback button */
+  padding: 25px;
+  width: 80%;          /* wide feedback button */
   background: #2c3e50;
   color: white;
-  border-radius: 8px;
+  border-radius: 10px;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 24px;
+  font-weight: bold;
   transition: background 0.3s;
 }
 
@@ -35,17 +36,19 @@ body {
 
 .button {
   flex: 0 0 48%;       /* each button takes ~half width */
-  padding: 20px;
+  padding: 25px;
   background: #2c3e50;
   color: white;
-  border-radius: 8px;
+  border-radius: 10px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: bold;
   transition: background 0.3s;
 }
 
 .button:hover {
   background: #34495e;
 }
+
 
 
