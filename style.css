@@ -13,7 +13,7 @@ body {
   height: 400px;
 }
 
-.menu div {
+.menu a {
   position: absolute;
   padding: 15px 25px;
   background: #2c3e50;
@@ -21,10 +21,16 @@ body {
   border-radius: 8px;
   text-align: center;
   cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.menu a:hover {
+  background: #34495e;
 }
 
 .center {
-  top: 50%;
+  top: 40%;   /* slightly higher than middle */
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -48,3 +54,4 @@ body {
   bottom: 20%;
   right: 10%;
 }
+
