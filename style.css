@@ -1,42 +1,43 @@
 body {
   background: #f8f8f8;
   font-family: Arial, sans-serif;
+  text-align: center;
   padding: 50px;
 }
 
 .menu {
   max-width: 800px;
   margin: 0 auto;
-  text-align: left;   /* align everything to the left */
 }
 
 .feedback {
   display: block;
-  margin: 20px 0 40px 0;
-  padding: 20px;
-  width: 60%;
+  margin: 20px auto 40px auto;
+  padding: 25px;
+  width: 70%;
   background: #2c3e50;
   color: white;
-  border-radius: 8px;
+  border-radius: 10px;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
 }
 
 .row {
   display: flex;
-  justify-content: flex-start;  /* align buttons to the left */
-  gap: 30px;                    /* space between buttons */
+  justify-content: center;   /* center the row */
+  gap: 40px;                 /* space between buttons */
   margin: 20px 0;
 }
 
 .button {
-  flex: 0 0 40%;                /* each button ~40% width */
-  padding: 20px;
+  flex: 0 0 35%;             /* each button ~35% width */
+  padding: 25px;
   background: #2c3e50;
   color: white;
-  border-radius: 8px;
+  border-radius: 10px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
 }
+
