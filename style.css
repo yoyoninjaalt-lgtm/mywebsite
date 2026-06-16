@@ -15,9 +15,9 @@ body {
   margin: 20px auto 40px auto;
   padding: 25px;
   width: 70%;
-  background: #2c3e50;
+  background: rgba(44, 62, 80, 0.7); /* semi-transparent */
   color: white;
-  border-radius: 10px;
+  border-radius: 50px;               /* circular corners */
   text-decoration: none;
   font-size: 24px;
   font-weight: bold;
@@ -25,7 +25,7 @@ body {
 }
 
 .feedback:hover {
-  background: #34495e;
+  background: rgba(52, 73, 94, 0.8);
 }
 
 .row {
@@ -36,11 +36,11 @@ body {
 }
 
 .button {
-  flex: 0 0 35%;             /* each button ~35% width */
+  flex: 0 0 35%;             
   padding: 25px;
-  background: #2c3e50;
+  background: rgba(44, 62, 80, 0.7); /* semi-transparent */
   color: white;
-  border-radius: 10px;
+  border-radius: 50px;               /* circular corners */
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
@@ -48,8 +48,9 @@ body {
 }
 
 .button:hover {
-  background: #34495e;
+  background: rgba(52, 73, 94, 0.8);
 }
+
 
 
 
