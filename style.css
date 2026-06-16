@@ -25,13 +25,13 @@ body {
 
 .row {
   display: flex;
-  justify-content: center;   /* center the row */
-  gap: 40px;                 /* space between buttons */
-  margin: 20px 0;
+  justify-content: center;   /* keep buttons centered */
+  gap: 60px;                 /* <-- big space between buttons */
+  margin: 30px 0;
 }
 
 .button {
-  flex: 0 0 35%;             /* each button ~35% width */
+  flex: 0 0 30%;             /* each button ~30% width */
   padding: 25px;
   background: #2c3e50;
   color: white;
@@ -40,4 +40,5 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
+
 
