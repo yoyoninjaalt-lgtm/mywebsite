@@ -21,21 +21,17 @@ body {
   text-decoration: none;
   font-size: 24px;
   font-weight: bold;
-  transition: background 0.3s;
-}
-
-.feedback:hover {
-  background: #34495e;
 }
 
 .row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;   /* center the row */
+  gap: 40px;                 /* <-- adds space between buttons */
   margin: 20px 0;
 }
 
 .button {
-  flex: 0 0 48%;       /* each button takes ~half width */
+  flex: 0 0 40%;             /* each button ~40% width */
   padding: 25px;
   background: #2c3e50;
   color: white;
@@ -43,14 +39,4 @@ body {
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
-  transition: background 0.3s;
-  margin: 0 10px;      /* <-- adds space between buttons */
 }
-
-.button:hover {
-  background: #34495e;
-}
-
-
-
-
