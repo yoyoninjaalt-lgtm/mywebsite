@@ -2,6 +2,8 @@
 <html>
 <head>
   <title>Restaurant Menu</title>
+  <!-- This line is CRUCIAL for mobile responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       background-image: url("https://img.freepik.com/premium-photo/restaurant-wood-table-background_577526-84.jpg");
@@ -71,7 +73,7 @@
     @media (max-width: 600px) {
       .row {
         flex-direction: column;   /* stack buttons vertically */
-        gap: 25px;                /* smaller gap for mobile */
+        gap: 25px;
       }
 
       .button {
@@ -104,8 +106,6 @@
   </div>
 </body>
 </html>
-
-
 
 
 
