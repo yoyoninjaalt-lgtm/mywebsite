@@ -10,8 +10,9 @@
       background-repeat: no-repeat;
       font-family: "Segoe UI", Arial, sans-serif;
       text-align: center;
-      padding: 60px;
+      padding: 40px;
       color: #fff;
+      margin: 0;
     }
 
     .menu {
@@ -21,14 +22,14 @@
 
     .feedback {
       display: block;
-      margin: 20px auto 70px auto;
-      padding: 35px;
-      width: 85%;
+      margin: 20px auto 50px auto;
+      padding: 25px;
+      width: 90%;
       background: rgba(0, 0, 0, 0.6);
       color: #fff;
       border-radius: 50px;
       text-decoration: none;
-      font-size: 28px;
+      font-size: 24px;
       font-weight: 600;
       box-shadow: 0 6px 16px rgba(0,0,0,0.4);
       transition: all 0.3s ease;
@@ -42,18 +43,19 @@
     .row {
       display: flex;
       justify-content: center;
-      gap: 140px;   /* spacing between buttons */
-      margin: 80px 0; /* spacing between rows */
+      gap: 60px;
+      margin: 40px 0;
+      flex-wrap: wrap; /* allow wrapping on small screens */
     }
 
     .button {
-      flex: 0 0 35%;
-      padding: 40px;
+      flex: 0 0 40%;
+      padding: 25px;
       background: rgba(255, 255, 255, 0.15);
       color: #fff;
       border-radius: 50px;
       text-decoration: none;
-      font-size: 24px;
+      font-size: 20px;
       font-weight: 600;
       letter-spacing: 1px;
       box-shadow: 0 6px 16px rgba(0,0,0,0.4);
@@ -63,6 +65,26 @@
     .button:hover {
       background: rgba(255, 255, 255, 0.3);
       transform: translateY(-6px);
+    }
+
+    /* 📱 Mobile adjustments */
+    @media (max-width: 600px) {
+      .row {
+        flex-direction: column;   /* stack buttons vertically */
+        gap: 25px;                /* smaller gap for mobile */
+      }
+
+      .button {
+        flex: 1 0 100%;           /* full width buttons */
+        font-size: 22px;
+        padding: 30px;
+      }
+
+      .feedback {
+        width: 100%;
+        font-size: 22px;
+        padding: 30px;
+      }
     }
   </style>
 </head>
@@ -82,6 +104,7 @@
   </div>
 </body>
 </html>
+
 
 
 
